@@ -24,3 +24,9 @@
   background: #caa4e9;
   transition: 0.6s;
  }
+
+ .email {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
