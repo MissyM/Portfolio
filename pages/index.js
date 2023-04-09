@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
   const [showText, setShowText] = useState(false);
@@ -19,10 +16,14 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>Front-End Developer</h1>
         <p className={styles.text}>
-          Milena is a Front-end developer with 4 years of experience working in
-          web development. She specializes in JavaScript technologies and
-          frameworks such as React, Angular, Svelte, and tools like Electron,
-          building front-end solutions for public institutions and startups.
+          As a dedicated and skilled Front-end Developer, I have a solid
+          foundation in a variety of programming languages, frameworks, and
+          tools, including React, Angular, Svelte, and Next.js. With six years
+          of experience, I have successfully contributed to numerous projects
+          for public institutions, startups, and development agencies. My strong
+          problem-solving skills, keen attention to detail, and passion for
+          creating intuitive user experiences make me an excellent fit for any
+          company seeking a talented Front-end Developer.
         </p>
         <p className={styles.text}>
           She is a focused, detail-oriented, and hard-working professional.
